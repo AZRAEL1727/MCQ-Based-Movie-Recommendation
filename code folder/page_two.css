@@ -1,0 +1,80 @@
+body{
+    background-color: #19121c;
+    }
+    .image{
+      margin-top: 0;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      background: url(img/pic.png) no-repeat left;
+    }
+
+    .headinggg{
+    /*border : 1px solid #ff1100;/*for debugging*/
+    margin-top: 15%;
+    text-align: center;
+    width:50%;
+    color: #ffffff;
+    /*background: rgba(255,255,255,0.2);*/
+    backdrop-filter: blur(0px);
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .heading{
+    /*border : 1px solid #ff1100;/*for debugging*/
+    margin-top: 5%;
+    text-align: center;
+    width:50%;
+    color: #ffffff;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(6px);
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    }
+
+
+    h1{
+    font-size: 300%;
+    }
+
+    .heading h2{
+    font-size: 200%;
+    }
+    .options{
+      /*border : 1px solid #ff1100;/*for debugging*/
+      width : 20%;
+      text-align : left;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .button{
+    /*border : 1px solid #ff1100;/*for debugging*/
+    position: relative;
+    color: #FFF;
+    background-color: #4a076b;
+    text-align: center;
+    width: 450px;
+    height: 100px;
+    font-weight: bold;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    /*padding: 5px;*/
+    padding-top: 1%;
+    box-sizing: border-box;
+    margin: 20px auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    }
+
+    .button1
+    {
+      font-weight: bold;
+      text-align: center;
+      background-color: #19121c;
+
+    }

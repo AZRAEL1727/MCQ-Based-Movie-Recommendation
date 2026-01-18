@@ -1,0 +1,59 @@
+body{
+    background-color: #19121c;
+  }
+  .image{
+    margin-top: 0;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: url(img/pic.png) no-repeat left;
+  }
+  .photo-grid-container{
+    margin-top: 10%;
+    /*border: 1px solid #ff0800; /*for debugging*/
+    display:flex;
+    justify-content: center;
+
+  }
+  .photo-grid{
+    /*border: 1px solid #ff0800; /*for debugging*/
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+  }
+  .photo-grid-item{
+    /*border: 1px solid #fff;/*for debugging*/
+    width: 300px;
+    height:auto;
+    margin:3%;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(6px);
+  }
+  .movie-name{
+    text-align: center;
+    color: #fff;
+  }
+  .poster{
+    border: 1px solid #000000;
+    background-color: white;
+    height: 210px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top:20%;*/
+  }
+  .imdb{
+    color: #fff;
+    text-align: center;
+    margin-right: 10%;
+    padding-top: 2%;
+  }
+  .first-item{
+    order:1;
+  }
+  .last-item{
+    order:-1;
+  }
